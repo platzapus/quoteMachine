@@ -1,0 +1,85 @@
+body{
+  background: #ddffdd;
+  background-image: url("http://i423.photobucket.com/albums/pp311/mufficity/trees.jpg");
+  background-size: cover;
+  
+}
+#presBox {
+  background: #117711;
+  opacity: .9;
+  border: 2px solid #056605;
+  border-radius: 3px;
+  width: auto;
+  margin: 15% 20% 0 20%;
+}
+#quoteBox {
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  border: 2px solid #056605;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 2% 2% 2% 2%;
+  font-size: 28px;
+  color: white;
+  font-family: 'Gentium Basic', serif;
+  overflow: hidden;
+  
+}
+#tweetPoster {
+  padding: 3px 15px 0 15px;
+  background:  #1dcaff;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  line-height: 40px;
+  float: left;
+  margin: 0 0 2% 4%;
+  color: #ffffff;
+}
+#tweetPoster:hover {
+  background: #1aafdd;
+}
+#clickBox {
+  space-between: 100px;
+  overflow: hidden;
+}
+#rngButton {
+  float: right;
+  margin: 1.5% 4% 1% 0;
+  border-radius: 3px;
+}
+#replaceQuote {
+  display: inline;
+}
+#myAuthor {
+  float: right;
+}
+#replaceAuthor{
+  display: inline;
+}
+p{
+  display: inline;
+}
+@media screen and (max-width: 750px){
+  #quoteBox{
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #quoteBox{
+    font-size: 20px;
+  }
+
+  #presBox{
+  margin:20% 10% 20% 10%;
+  }
+}
+@media screen and (max-width: 250px){
+  #quoteBox{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1050px){
+  body {
+    background-size: 1050px 699px;
+  }
+}
